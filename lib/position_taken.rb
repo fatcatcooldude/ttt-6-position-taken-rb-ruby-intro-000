@@ -10,5 +10,5 @@ def position_taken?(board, index)
   else index == nil
       return false
   end
-
+end
 position_taken?(board, "X")
