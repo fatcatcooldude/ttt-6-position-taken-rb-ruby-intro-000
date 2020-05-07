@@ -9,4 +9,4 @@ def position_taken?(board, index)
     return true
   end
 end
-position_taken?(board, "O")
+position_taken?(board, X)
