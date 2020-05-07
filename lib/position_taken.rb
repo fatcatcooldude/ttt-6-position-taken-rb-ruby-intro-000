@@ -5,8 +5,8 @@ def position_taken?(board, index)
     return false
   elsif index == nil
     return false
-  elsif index = "X" || "O"
+  else
     return true
   end
 end
-position_taken?(board, "X")
+position_taken?(board, "3")
