@@ -7,6 +7,7 @@ def position_taken?(board, index)
     return false
   else index = "X"
       return true
+
+      position_taken?(board, "X")
   end
 end
-position_taken?(board, "2")
