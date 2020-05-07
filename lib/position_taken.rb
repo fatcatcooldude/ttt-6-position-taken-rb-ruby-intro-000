@@ -1,5 +1,6 @@
 # code your #position_taken? method here!
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
+index = gets.stip
 def position_taken(board, index)
   if index = " " || ""
     return false
